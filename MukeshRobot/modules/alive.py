@@ -10,16 +10,16 @@ from telethon import __version__ as tver
 from MukeshRobot import SUPPORT_CHAT, pbot,BOT_USERNAME, OWNER_ID,BOT_NAME,START_IMG
 
 PHOTO = [
-    "https://telegra.ph/file/d2a23fbe48129a7957887.jpg",
-    "https://telegra.ph/file/ddf30888de58d77911ee1.jpg",
-    "https://telegra.ph/file/268d66cad42dc92ec65ca.jpg",
-    "https://telegra.ph/file/13a0cbbff8f429e2c59ee.jpg",
-    "https://telegra.ph/file/bdfd86195221e979e6b20.jpg",
+    "https://graph.org/file/ab1a01833511374b3ec7c.jpg",
+    "https://graph.org/file/ef281960c1b525e65b8e6.jpg",
+    "https://graph.org/file/57ff9daaf1dcf6b6b0a13.jpg",
+    "https://graph.org/file/104f4a0a660bee9513fb9.jpg",
+    "https://graph.org/file/c855f9985bc3a0872328a.jpg",
 ]
 
 Mukesh = [
     [
-        InlineKeyboardButton(text="ɴᴏᴏʙ", user_id=OWNER_ID),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", user_id=OWNER_ID),
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
@@ -35,14 +35,14 @@ Mukesh = [
 @pbot.on_message(filters.command("alive"))
 async def restart(client, m: Message):
     await m.delete()
-    accha = await m.reply("⚡")
+    accha = await m.reply("❄️")
     await asyncio.sleep(0.2)
-    await accha.edit("ᴅɪɴɢ ᴅᴏɴɢ ꨄ︎ ᴀʟɪᴠɪɴɢ..")
+    await accha.edit("ᴋᴀʀᴜᴍɪ ɪs ᴀʟɪᴠɪɴɢ..")
 
     await accha.delete()
     await asyncio.sleep(0.3)
     umm = await m.reply_sticker(
-        "CAACAgUAAxkDAAJHbmLuy2NEfrfh6lZSohacEGrVjd5wAAIOBAACl42QVKnra4sdzC_uKQQ"
+        "CAACAgUAAxkBAAEBCCtmUDcz52kbGlOKUb2eV482nqhM6wACDxAAAn85gFa3b9APCXDalB4E"
     )
     await umm.delete()
     await asyncio.sleep(0.2)
