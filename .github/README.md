@@ -1,4 +1,4 @@
-<h1 align="center">ᴍᴜᴋᴇsʜ ʀᴏʙᴏᴛ</h1>
+<h1 align="center">karumi ʀᴏʙᴏᴛ</h1>
 <p align="center">
   <img src="https://graph.org/file/467ed1a3629fd8162223f.jpg">
 
