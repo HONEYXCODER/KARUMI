@@ -76,7 +76,7 @@ PM_START_TEX = """
 
 PM_START_TEXT = """ 
 *ʜᴇʏ* {} , 🥀
-*๏ ɪ'ᴍ {} ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ʀᴏʙɪᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ
+*๏ ɪ'ᴍ {} ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ʀᴏʙᴏᴛ ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ
 ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴀɴᴅ sᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ʜᴜɢᴇ*
 *ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ.*
 ─────────────────
@@ -202,25 +202,25 @@ def start(update: Update, context: CallbackContext):
             first_name = update.effective_user.first_name
             
             x=update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAEBCCtmUDcz52kbGlOKUb2eV482nqhM6wACDxAAAn85gFa3b9APCXDalB4E")
+                "CAACAgUAAxkBAAEBGNZmVShNm7EySTMuvreYV3gsllPeCgAC3A0AAtE5qFZHqxq8TfmBWB4E")
             x.delete()
             usr = update.effective_user
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(0.5)
+            time.sleep(0.7)
             lol.edit_text("❄️")
-            time.sleep(0.2)
-            lol.edit_text("🍾")
-            time.sleep(0.2)
+            time.sleep(0.4)
+            lol.edit_text("⚡")
+            time.sleep(0.4)
             lol.edit_text("ʟᴏᴀᴅɪɴɢ25%... ")
-            time.sleep(0.1)
+            time.sleep(0.2)
             lol.edit_text("ʟᴏᴀᴅɪɴɢ50%... ")
-            time.sleep(0.1)
+            time.sleep(0.2)
             lol.edit_text("ʟᴏᴀᴅɪɴɢ75%... ")
-            time.sleep(0.1)
+            time.sleep(0.2)
             lol.edit_text("ʟᴏᴀᴅɪɴɢ100%... ")
-            time.sleep(0.1)
+            time.sleep(0.2)
             lol.delete()
             
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
