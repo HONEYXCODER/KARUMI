@@ -103,7 +103,7 @@ async def repo(client, message):
                     ),
                     InlineKeyboardButton(
                         "• ʀᴇᴘᴏ •",
-                        url="https://t.me/Karumi_support",
+                        url="https://t.me/Honey_Bot_Logs",
                     ),
                 ]
             ]
