@@ -388,7 +388,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/abot_honey"
+                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/Oghoneyy"
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/honey_networks"
@@ -419,7 +419,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id={OWNER_ID}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴀʙᴛ ᴍʏ ᴏᴡɴᴇʀ", url="https://t.me/abot_honey"
+                            text="ᴀʙᴛ ᴍʏ ᴏᴡɴᴇʀ", url="https://t.me/Oghoneyy"
                         ),
                     ],
                     [
